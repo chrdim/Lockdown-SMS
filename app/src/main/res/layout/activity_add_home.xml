@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddHomeActivity">
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="346dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="20dp"
+        android:text="Προσθέστε αν επιθυμείτε την διεύθυνση της κατοικίας σας για να μην χρειάζεται να την πληκτρολογείτε σε κάθε μήμυμα.\n\nΠΡΟΣΟΧΗ: Tα στοιχεία της κατοικίας σας θα βρίσκονται αποθηκευμένα ΜΟΝΟ στην συσκευή σας."
+        app:layout_constraintBottom_toTopOf="@+id/edit1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/im19"
+        android:layout_width="212dp"
+        android:layout_height="135dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/homeicon" />
+
+    <EditText
+        android:id="@+id/edit1"
+
+
+        android:layout_width="203dp"
+
+        android:layout_height="41dp"
+        android:background="@drawable/edittextshape"
+
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Οδός"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
+
+    <EditText
+        android:id="@+id/edit2"
+
+        android:layout_width="200dp"
+
+        android:layout_height="56dp"
+        android:background="@drawable/edittextshape"
+
+
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Πόλη"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <EditText
+        android:id="@+id/edit3"
+
+        android:layout_width="203dp"
+
+        android:layout_height="41dp"
+        android:background="@drawable/edittextshape"
+
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Νούμερο"
+        android:inputType="number"
+        android:textColor="@color/black"
+
+
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="207dp"
+        android:layout_height="63dp"
+        android:onClick="save"
+        android:text="Αποθηκευση"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Προσθήκη κατοικίας"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
